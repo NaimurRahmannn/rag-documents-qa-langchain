@@ -14,4 +14,5 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
+GOOGLE_API_KEY = settings.GOOGLE_API_KEY
 GEMINI_MODEL = settings.GEMINI_MODEL
